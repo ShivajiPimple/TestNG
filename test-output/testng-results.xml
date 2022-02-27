@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-27T19:05:44 IST" name="Suite" finished-at="2022-02-27T19:06:18 IST" duration-ms="34811">
+    <groups>
+      <group name="A">
+        <method signature="Grouping.LogIN1(java.lang.String,java.lang.String)[pri:0, instance:Grouping@4cc451f2]" name="LogIN1" class="Grouping"/>
+        <method signature="Grouping.LogIN2(java.lang.String,java.lang.String)[pri:0, instance:Grouping@4cc451f2]" name="LogIN2" class="Grouping"/>
+      </group> <!-- A -->
+    </groups>
+    <test started-at="2022-02-27T19:05:44 IST" name="Test" finished-at="2022-02-27T19:06:18 IST" duration-ms="34811">
+      <class name="Grouping">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:05:41 IST" name="OpenBrowser" finished-at="2022-02-27T19:05:44 IST" duration-ms="2372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="EnterURL()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:05:44 IST" name="EnterURL" finished-at="2022-02-27T19:05:53 IST" duration-ms="9663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method is-config="true" signature="MaximizeBrowser()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:05:53 IST" name="MaximizeBrowser" finished-at="2022-02-27T19:05:53 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaximizeBrowser -->
+        <test-method is-config="true" signature="GetCookies()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:05:54 IST" name="GetCookies" finished-at="2022-02-27T19:05:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCookies -->
+        <test-method signature="LogIN1(java.lang.String,java.lang.String)[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:05:54 IST" name="LogIN1" finished-at="2022-02-27T19:06:06 IST" duration-ms="12753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivaji7342@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIN1 -->
+        <test-method is-config="true" signature="GetScreenshot()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:06 IST" name="GetScreenshot" finished-at="2022-02-27T19:06:08 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScreenshot -->
+        <test-method is-config="true" signature="GetCookies()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:08 IST" name="GetCookies" finished-at="2022-02-27T19:06:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCookies -->
+        <test-method signature="LogIN2(java.lang.String,java.lang.String)[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:08 IST" name="LogIN2" finished-at="2022-02-27T19:06:17 IST" duration-ms="9653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivaji7342@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIN2 -->
+        <test-method is-config="true" signature="GetScreenshot()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:17 IST" name="GetScreenshot" finished-at="2022-02-27T19:06:18 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetScreenshot -->
+        <test-method is-config="true" signature="DeleteCookies()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:18 IST" name="DeleteCookies" finished-at="2022-02-27T19:06:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCookies -->
+        <test-method is-config="true" signature="DbConnectionClose()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:18 IST" name="DbConnectionClose" finished-at="2022-02-27T19:06:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DbConnectionClose -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Grouping@4cc451f2]" started-at="2022-02-27T19:06:18 IST" name="CloseBrowser" finished-at="2022-02-27T19:06:19 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
