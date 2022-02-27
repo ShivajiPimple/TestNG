@@ -24,12 +24,14 @@ public class CrossBrowser
 	
 	@BeforeSuite()
 	@Parameters({"browser"})
-	public void OpenBrowser()
-	{
+	public void OpenBrowser(String Brow)
+	{       
+		if (Brow.)
+		{	
 		System.out.println("Browser Opened");
 		System.setProperty("webdriver.chrome.driver", "H:\\New folder\\Shivaji Automation\\AUTOMATION SEKE\\chromedriver_win32\\chromedriver.exe");
 		driver= new ChromeDriver();
-		
+		}
 	}
 	@BeforeTest()
 	public void EnterURL()
